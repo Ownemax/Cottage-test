@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/var.css">
+    <link rel="stylesheet" href="css/fontfase.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/block.css">
+    <link rel="stylesheet" href="css/headerAndFooter.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/advantages.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/gallery.css">
+
+    <link rel="stylesheet" href="css/finishing.css">
+    <link rel="stylesheet" href="css/howbuy.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link rel="stylesheet" href="css/footer.css"> -->
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/ff.css">
+    <!-- <link rel="stylesheet" href="css/plugins.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+</head>
+
+<body>
+    <div id="visible"  class="visible"></div>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="header__items">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="header__item">
+                        <a class="header__item-link" href="#">Выбрать дом</a>
+                    </div>
+                    <div class="header__item">
+                        <a class="header__item-link" href="#">О поселке</a>
+                    </div>
+                    <div class="header__item">
+                        <a class="header__item-link" href="#">Как купить</a>
+                    </div>
+                    <div class="header__item">
+                        <a class="header__item-link" href="#">Контакты</a>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item-block">
+                            <img src="./images/галочка.svg" class="header__item-icon" alt="">
+                            <a class="footer__number" href="tel:88007073656">+7(800) 707-36-56</a>
+                            
+                        </div>
+
+                    </div>
+                </nav>
+
+
+                <div id="burger" class="header__menu">
+                    <span style="width: 100%;"></span>
+                    <span style="width: 100%;"></span>
+                    <span style="width: 100%;"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END header -->
+
+    <!-- mobile-menu -->
+    <aside>
+        <nav class="mobile-menu">
+          
+                
+                <div class="mobile-menu__body">
+                    <nav class="mobile-menu__items">
+                        <div class="mobile-menu__item">
+                            <a class="mobile-menu__item-link" href="#">Выбрать Дом</a>
+                        </div>
+                        <div class="mobile-menu__item">
+                            <a class="mobile-menu__item-link" href="#">О поселке</a>
+                        </div>
+                        <div class="mobile-menu__item">
+                            <a class="mobile-menu__item-link" href="#">Как купить</a>
+                        </div>
+                        <div class="mobile-menu__item">
+                            <a class="mobile-menu__item-link" href="#">Контакты</a>
+                        </div>
+                    </nav>
+                </div>
+            
+        </nav>
+    </aside>
+    <!-- mobile-menu end -->
+
+    <!-- main -->
+    <main class="main">
+       
+        <section class="main-banner">
+            <div class="main-banner__inner">
+                <div class="main__container container">
+                    <div class="main-banner__title-wrapper">
+                        <img class="main-banner__img" src="./images/logo.png" alt="">
+                        <img class="main-banner__img-back" src="./images/banner.jpg" alt="фон" >
+                        <h1 style="color: #FFA500;" class="main-banner__title">Коттеджный посёлок Ривер-Парк</h1>
+                        <p style="color: #FFA500;" class="main-banner__subtitle">Уют и комфорт в живописном месте</p>
+                    </div>
+                    <button onclick="document.getElementsByClassName('layout__item')[0].scrollIntoView({ behavior: 'smooth', block: 'center' })" class="button-border">Подбор домов</button>
+                </div>
+                <div class="main-banner__contacts">
+                    <img src="./images/галочка.svg" class="main-banner__contacts-icon" alt="">
+                    <p class="main-banner__contacts-text">Свяжитесь с нами</p>
+                    <a class="main-banner__contacts-tel" href="tel:+78007073656">+7(800) 707-36-56</a>
+                   
+
+                </div>
+                <a href="" class="main-banner__catalog">
+                    <img src="./images/галочка.svg" class="main-banner__contacts-icon" alt="">
+                    
+                </a>
+            </div>
+            <div class="container">
+                <div class="main-block">
+                    <p class="main-block__text">Коттеджный посёлок окружён  <br>зелёными лесами и чистыми реками </p>
+                    <div class="main-block__item">
+                        <h3>26</h3>
+                        <p>Коттеджей</p>
+                    </div>
+                    <div class="main-block__item">
+                        <h3>4</h3>
+                        <p>планировки</p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="about">
+            <div class="container about__inner">
+                <img src="./images/about/about.jpg" alt="about" class="about__img">
+
+                <div class="about__item">
+                    <h2 class="about__item-title">О проекте</h2>
+                    <p class="about__item-text">
+                        Основные характеристики коттеджей: <br>
+                        <br>
+                        &bull;   Площадь зданий: от 85,4 до 112,96 кв.м. <br>
+                        &bull;   Площадь земельных участков: от 4 до 6 соток.<br>
+                        &bull;   Стоимость: от 9 394 000 до 12 425 600 рублей.<br>
+                        &bull;   Цена за 1 кв.м: 110 тыс. руб.<br>
+                        <br>
+                        Технологии строительства: <br>
+                        <br>
+                        &bull;   Свайный фундамент с ростверком.<br>
+                        &bull;   Плита перекрытия 18 см.<br>
+                        &bull;   Сейсмопояс с двойной арматурой.<br>
+                        &bull;   Стены из пеплоблоков (ширина стены 30 см).<br>
+                        &bull;   Крыша из металлочерепицы с утеплением.<br>
+                        &bull;   Внешняя отделка – Короед (каскад бежево-серый).<br>
+                        &bull;   Центральная канализация, двухконтурный котел Baxi, теплые полы (водяные).<br>
+                        &bull;   Пластиковые двухкамерные окна, витраж в пол, гардеробная, забор и ворота.<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__inner container">
+                <div class="advantages__item">
+                    <img src="./images/advantages/advantagesIcon.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Уникальное расположение</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/advantages/advantagesIcon.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Современные и комфортабельные коттеджи</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/advantages/advantagesIcon.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Высококачественные материалы<br>и технологии строительства</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/advantages/advantagesIcon.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Развитая инфраструктура</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/иконка 5.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Возможности для активного отдыха</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/иконка 5.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Удобное транспортное сообщение</p>
+                </div>
+                <div class="advantages__item">
+                    <img src="./images/иконка 5.svg" alt="advantages" class="advantages__item-img">
+                    <p class="advantages__item-text">Отличное ценовое предложение</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- <section class="banner"> -->
+            <div style="position:relative; overflow:hidden; display: flex; justify-content: center; align-items: center; ">
+                <a href="https://yandex.ru/maps/11057/essentuky/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Ессентуки</a>
+                <a href="https://yandex.ru/maps/geo/kottedzhny_poselok_river_park/5149648976/?ll=42.826050%2C44.034550&utm_medium=mapframe&utm_source=maps&z=16.47" style="color:#eee;font-size:12px;position:absolute;top:14px;">Коттеджный поселок Ривер Парк — Яндекс Карты</a>
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=42.826050%2C44.034550&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgo1MTQ5NjQ4OTc2EoAB0KDQvtGB0YHQuNGPLCDQodGC0LDQstGA0L7Qv9C-0LvRjNGB0LrQuNC5INC60YDQsNC5LCDQldGB0YHQtdC90YLRg9C60LgsINC60L7RgtGC0LXQtNC20L3Ri9C5INC_0L7RgdC10LvQvtC6INCg0LjQstC10YAg0J_QsNGA0LoiCg0wSytCFdMkMEI%2C&z=16.47" width="1000px" height="600px" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+            <!-- <img src="./images/banner/banner.jpg" alt="banner" class="banner__img"> -->
+            <!-- <div class="banner__filter"></div> -->
+        <!-- </section> -->
+
+        <!-- grid-gallery section end -->
+        <section class="layout">
+            <div class="layout__inner container">
+                <h2 class="layout__inner-title">Варианты планировок:</h2>
+                <div class="layout__inner">
+                    
+                    <div class="layout__item layout__item-min">
+                        <div class="layout__card">
+                            <img src="./images/layout/4_80_plan-1.png" class="layout__card-img" alt="layout">
+                            <div class="layout__card-inner">
+                                <h3 class="layout__card-title">4 сотки</h3>
+                                <p class="layout__card-text">80 м<sup>2</sup></p>
+                            </div>
+                        </div>
+                        <div class="layout__card">
+                            <img src="./images/layout/4_83_plan-1.png" class="layout__card-img" alt="layout">
+                            <div class="layout__card-inner">
+                                <h3 class="layout__card-title">4 сотки</h3>
+                                <p class="layout__card-text">83,8 м<sup>2</sup></p>
+                            </div>
+                        </div>
+                        <div class="layout__card">
+                            <img src="./images/layout/5_99_plan-1.png" class="layout__card-img" alt="layout">
+                            <div class="layout__card-inner">
+                                <h3 class="layout__card-title">5 соток</h3>
+                                <p class="layout__card-text">99,2 м<sup>2</sup></p>
+                            </div>
+                        </div>
+                        <div class="layout__card">
+                            <img src="./images/layout/6_106_plan-1.png" class="layout__card-img" alt="layout">
+                            <div class="layout__card-inner">
+                                <h3 class="layout__card-title">6 соток </h3>
+                                <p class="layout__card-text">106,1 м<sup>2</sup></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="button-border layout__link">Открыть каталог</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container gallery__inner">
+                <h2 class="gallery__title">Галерея Котеджного поселка</h2>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__img" src="./images/gallery/gallery1.jpg" alt="Slide 1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__img" src="./images/gallery/gallery2.jpg" alt="Slide 1" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-slide__img" src="./images/gallery/gallery3.jpg" alt="Slide 1" />
+                        </div>
+                    </div>
+
+                    <!-- Навигация -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                    <!-- Скроллбар (по желанию) -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="finishing">
+            <div class="finishing__inner container">
+                <h2 class="finishing__title">Наши Преимущества</h2>
+                <div class="finishing__list">
+                    <ul class="finishing__list-col">
+                        <li class="list-item finishing__list-item">Забор и ворота предусмотрены</li>
+                        <li class="finishing__list-item list-item ">Газ, Вода, Свет</li>
+                        <li class="finishing__list-item  list-item ">Окна в пол</li>
+                        <li class="finishing__list-item  list-item ">Терраса</li>
+                    </ul>
+                    <ul class="finishing__list-col">
+                        <li class="finishing__list-item list-item ">Географическое местоположение</li>
+                        <li class="finishing__list-item  list-item ">Потолки 3,2 м</li>
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- <div id="trapezoid"></div> -->
+
+
+
+        <!-- how-buy section -->
+        <section class="how-buy">
+            <div class="how-buy__container container">
+
+                <h2 class="section__title">Как купить?</h2>
+                <div class="how-buy__inner">
+                    <div class="how-buy__folders">
+                        <div class="how-buy__folder">
+                            <img class="how-buy__folder-back" src="./images/папка.svg" alt="Folder">
+
+                            <div class="how-buy__folder-body">
+                                <div class="how-buy__folder-item">
+                                    <div class="how-buy__folder-title">
+                                        <img src="./images/галочка для папок.svg" alt="галочка">
+                                        <h6 class="">Семейная <br> ипотека</h6>
+                                    </div>
+                                    <p class="how-buy__folder-procent how-buy__folder-procent--yelloy">от
+                                        <span>6%</span>
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="how-buy__folder">
+                            <img class="how-buy__folder-back" src="./images/папка.svg" alt="Folder">
+
+                            <div class="how-buy__folder-body">
+                                <div class="how-buy__folder-item">
+                                    <div class="how-buy__folder-title how-buy__folder-title-last">
+                                        <img src="./images/галочка для папок.svg" alt="галочка">
+
+                                        <h6 class="">IT <br>ипотека</h6>
+                                    </div>
+                                    <div >
+                                        <p class="how-buy__folder-procent how-buy__folder-procent--yelloy">от
+                                        <span>5%</span>
+                                        </p>
+                                        <!-- <p class="how-buy__folder-text">от</p>
+                                        <h3>5%</h3> -->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-buy__conditions">
+                        <p class="how-buy__conditions-title">Приобрести квартиру можно
+                            по государственным программам</p>
+                        <div class="how-buy__block">
+                            <ul class="how-buy__conditions-wrapper">
+                                <li class="how-buy__conditions-item list-item ">Семейная ипотека от 6% емейная ипотека
+                                    от 6%</li>
+                                <li class="how-buy__conditions-item list-item ">Семейная ипотека от 6%</li>
+                                <li class="how-buy__conditions-item list-item ">Семейная ипотека от 6%</li>
+                                <li class="how-buy__conditions-item list-item ">Семейная ипотека от 6%</li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- how-buy section end -->
+
+        <!-- partners section -->
+        <!-- <section class="partners">
+            <div class="container">
+                <h2 class="section__title">Банки партнеры</h2>
+                <div class="partners__inner">
+                    <div class="partners__item"><img src="./images/partners/sberbank.svg" alt="sberbank"></div>
+                    <div class="partners__item"><img src="./images/partners/vtb.svg" alt="vtb"></div>
+                    <div class="partners__item"><img src="./images/partners/gazprom.svg" alt="gazprom"></div>
+                    <div class="partners__item"><img src="./images/partners/psb.svg" alt="psb"></div>
+                    <div class="partners__item"><img src="./images/partners/alfa.svg" alt="alfa"></div>
+                    <div class="partners__item"><img src="./images/partners/otkritie.svg" alt="otkritie"></div>
+                    <div class="partners__item"><img src="./images/partners/levoberej.svg" alt="levoberej"></div>
+                    <div class="partners__item"><img src="./images/partners/rosbank.svg" alt="rosbank"></div>
+                    <div class="partners__item"><img src="./images/partners/bank.svg" alt="bank"></div>
+                </div>
+            </div>
+        </section> -->
+        <!-- partners section end -->
+
+        <!-- feedback section -->
+        <!-- <section class="feedback">
+            <div class="container">
+                <div class="feedback__inner">
+                    <h5 class="feedback__title">Не нашли нужную информацию?</h5>
+                    <p class="feedback__subtitle">Оставьте ваши контактные данные и наши менеджеры свяжутся с вами в
+                        ближайшее время</p>
+                    <form action="" class="feedback__form" data-form="feedback">
+                        <input class="feedback__form-input" type="text" placeholder="Имя">
+                        <input class="feedback__form-input" type="text" placeholder="+7(___)___-__-__">
+                        <input class="feedback__form-input" type="text" placeholder="E-mail">
+                        <label for="privacy-policy" class="feedback__form-policy">
+                            <input id="privacy-policy" class="privacy-policy-checkbox" type="checkbox"> Нажимая кнопку
+                            Вы даете согласие на <a href="#">обработку персональных данных</a> и с условием <a
+                                href="">пользовательского соглашения</a>
+                        </label>
+                        <button class="feedback__form-submit button">Отправить</button>
+                    </form>
+
+                </div>
+            </div>
+        </section> -->
+        <!-- feedback section end -->
+
+        <!-- contacts section -->
+
+        <!-- contacts section end -->
+        <!-- copyright section -->
+        <section class="copyright">
+            <div class="container copyright__inner">
+                <p class="copyright__text">
+                    ООО «Специализированный застройщик  River-Park»,
+                    Сайт носит информационный характер и ни при каких условиях не является публичной офертой,
+                    определяемой положениями статьи 437 гражданского кодекса Российской федерации. Для получения
+                    подробной информации о наличии, стоимости указанных квартир, машиномест, коммерческих помещений
+                    пожалуйста, обращайтесь к специалистам ООО «Специализированный застройщик  «River-park», с помощью
+                    специальной формы связи или по телефону ---------------------.
+                    Пользуясь сайтом вы соглашаетесь с политикой конфиденциальности (эти слова активный по ссылке на
+                    документ)
+                </p>
+            </div>
+        </section>
+        <!-- copyright section end -->
+    </main>
+    <!-- END main -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__inner">
+
+                <nav class="footer__items">
+                    <div class="footer__logo footer__item">
+                        
+                        <img class="footer__logo-img" src="./images/logo.svg" alt="">
+                    </div>
+                    <div class="footer__item">
+                        <h3 class="footer__item-title">Контакты</h3>
+                        <p class="footer__item-text">Офисы продаж <br> Адрес----------------------
+                        </p>
+                    </div>
+                    <div class="footer__item">
+
+                        <p class="footer__item-text">E-mail: <br>Ваш__Емейл__@gmail.ru</p>
+                    </div>
+                    <div class="footer__item footer__item-contacts">
+                        <div class="footer__contacts">
+                            <img src="./images/галочка.svg" class="footer__contacts-icon" alt="">
+                            <a class="footer__number" href="tel:+78007073656">+7(800) 707-36-56</a>
+                    
+
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/widjet.js"></script>
+    <!-- Domoplaner widget code -->
+
+    <!-- /Domoplaner widget code -->
+</body>
+
+</html>
